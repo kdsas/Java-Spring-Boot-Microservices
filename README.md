@@ -21,7 +21,7 @@ Eureka server,
 Configuration server, and Core service
 
 
-In Eclipse, run PatientMicroservices, PatientDiscoveryServer, and PatientConfigServer as a Spring Boot App and in your browser; go to http://localhost:8081/. Now we will go to the eurekaserver directory from the terminal and will run mvn spring-boot:run. As we configured the eureka server to port 8081, it will listen to 8081 port.Then we will go to the config server and run mvn spring-boot:run command. As we configured the config server at port 8082, it will listen to port 8082.
+In Eclipse, run PatientMicroservices, PatientDiscoveryServer, and PatientConfigServer as a Spring Boot App and in your browser; go to http://localhost:8761/. Now we will go to the eurekaserver directory from the terminal and will run mvn spring-boot:run. As we configured the eureka server to port 8761, it will listen to 8081 port.Then we will go to the config server and run mvn spring-boot:run command. As we configured the config server at port 8082, it will listen to port 8082.
 
-Now we will run our core service PatientMicroservices. It will listen to port 8083. Now all servers are running. So, we can test now. At first, we will check the eureka server at http://localhost:8081/. Now we will check PatientMicroservices through Postman App.First, we will create a profile through Postman and make a POST request.
+Now we will run our core service PatientMicroservices. It will listen to port 8083. Now all servers are running. So, we can test now. At first, we will check the eureka server at http://localhost:8761/. Now we will check PatientMicroservices through Postman App.First, we will create a profile through Postman and make a POST request.
 
