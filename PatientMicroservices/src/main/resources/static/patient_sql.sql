@@ -1,0 +1,1 @@
+Create Table patient_profile(id int(11) NOT NULL AUTO_INCREMENT,name varchar(255),email varchar(255),date_time DATETIME, reason varchar(255), PRIMARY KEY (`id`));
